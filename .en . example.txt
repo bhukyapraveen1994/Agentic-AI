@@ -1,0 +1,15 @@
+#choose LLM backend: "openai" or "ollama"
+LLM_PROVIDER=ollama
+
+#For OpenAI 
+OPEN_API_KEY=sk-your-key-here
+OPEN_MODEL=gpt-40-mini
+
+# For ollama(local)
+
+OLLAMA_MODEL=llama3
+
+# General app settings
+
+APP_NAME=Package Tracking Assistant
+APP_ENV= dotenv
